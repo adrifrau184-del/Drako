@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRAKO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">👑 DRAKO</div>
+
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+
+        <div class="carrito">
+            🛒 <span id="contador">0</span>
+        </div>
+    </nav>
+</header>
+
+<section id="inicio" class="hero">
+    <h1>DRAKO STREETWEAR</h1>
+    <p>Ropa premium para destacar.</p>
+    <a href="#productos" class="btn">Comprar Ahora</a>
+</section>
+
+<section id="productos">
+    <h2>Nuestros Productos</h2>
+
+    <div class="productos">
+
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x300" alt="Camiseta Drako">
+            <h3>Camiseta Drako</h3>
+            <p>24,99€</p>
+            <button onclick="agregarCarrito()">Añadir</button>
+        </div>
+
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x300" alt="Sudadera Drako">
+            <h3>Sudadera Drako</h3>
+            <p>49,99€</p>
+            <button onclick="agregarCarrito()">Añadir</button>
+        </div>
+
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x300" alt="Pantalón Drako">
+            <h3>Pantalón Drako</h3>
+            <p>39,99€</p>
+            <button onclick="agregarCarrito()">Añadir</button>
+        </div>
+
+    </div>
+</section>
+
+<section id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>
+        DRAKO es una marca de streetwear premium diseñada para quienes buscan
+        estilo, calidad y exclusividad.
+    </p>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+
+    <form>
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo" required>
+        <textarea placeholder="Mensaje"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 DRAKO. Todos los derechos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
